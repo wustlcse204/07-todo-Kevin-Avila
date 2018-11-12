@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(230, 230, 230)!important;
+  font-family: 'roboto';
+  font-size: 18px;
+}
+/* nav bar styling */
+.navbar{
+      background-color: rgb(158, 9, 24);
+      color:white;
+      font-size: 18px;
+      text-shadow: 2px 2px 3px rgb(30, 30, 30);
+}
+.navbar h1 {
+    font-size: 25px;
+    padding: 0px 20px ;
+}
+#navform{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar i{
+  color: white ;
+}
+#submitButton i:hover{
+  color:red;
+}
+/*  */
+.container{
+    border: 1px solid  rgb(200, 200, 200);
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(158, 9, 24);
+}
+.container p{
+  color: rgb(158, 9, 24);
+  margin-bottom: 0px;
+}
+.containerIn {
+  margin-top: 0px;
+  padding-bottom: 20px;
+  background-color: rgb(230, 230, 230);
+}
+/* heading styling */
+.heading{
+      background-color: rgb(158, 9, 24);
+      color:white;
+      font-size: 18px;
+      text-shadow: 2px 2px 3px rgb(30, 30, 30);
+      padding:10px;
+      width: 100%;
+}
+.heading h1 {
+    font-size: 18px;
+    padding: 0px 20px ;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li * {
+  float: left;
+}
+li, h3 {
+  clear:both;
+  list-style:none;
+}
+input, button {
+  outline: none !important;
+}
+button {
+  background: none;
+  float: right;
+  border: 0px;
+  width: 10px;
+  padding: 0px 70px 0px 0px;
+  cursor: pointer;
+}
+button:hover {
+  color: red;
+}
+/* "todays tasks styling" */
+h3 {
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+  padding: 30px 0 10px;
+  margin: 0;
+}
+/* form styling */
+input[type="text"] {
+  margin-top: 10px;
+  font-size: 16px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+}
+/* Task list */
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+li  input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+}
+li  label {
+  font-size: 18px;
+  padding: 0 0 0 11px;
+}
+/* strike thru */
+.completed label{
+  text-decoration: line-through;
+}
+@media (max-width: 991.98px) {
+    .navbar h1{
+      display: none;
+    }
+}
