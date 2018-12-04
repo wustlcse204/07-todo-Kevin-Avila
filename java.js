@@ -1,5 +1,5 @@
-var apiKey ="4557d5baf88f1df7f71e09570588b1cf63b66494438bdf7d9217a1f683be64d0";
-
+// var apiKey ="4557d5baf88f1df7f71e09570588b1cf63b66494438bdf7d9217a1f683be64d0";
+var apiKey ="424e559fd8a43259db07cf7b2017a655f4786a629fe03a58588eefde60c7a349"
 // Load existing TodDos and display them
 var listRequest =  new XMLHttpRequest();
 	listRequest.onreadystatechange = function() {
@@ -83,7 +83,7 @@ function renderTodos(todoData){
 	// clears the form
 	document.getElementById("form").value='';
 }
-
+//complete a todo
 function completeTodo(event){
 	var todoId = event.target.parentNode.id;
 	var data ={completed: true};
